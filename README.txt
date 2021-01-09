@@ -1,0 +1,4 @@
+The dataset is about the number of shares that an article on Mashable has. There are lots of features, some are explicitly calculated such as the number of images, others are calculated from Natural Language Processing algorithms, such as the average positive words in the artice, finally others are calculated stochastically on NLP theorems such as LDA_0.
+We've used many models to determine the number of shares (quantitative variable) but to no avail, all models have suprisingly low R2 and scores.
+We believe that the nature of some features (the keywords attributes for example are really ambiguous) and the complexity of the target (feature that changes over time, we don't consider the time since publication, human behavior and culture interests all take parts in explaining the number of shares of an article)
+Finally, we think a unsupervised model would be better at predicting the dataset, since so much is unknown about the habits of retweeting or sharing an article.
